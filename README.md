@@ -9,15 +9,14 @@ Next a small program was written which tried all possible values between 0 and 2
 
 
 # How to get the usb device connect/accessible for ordinary users
-'''
-$> sud su -  
+```bash
+$> sudo su -  
 $> cd /etc/udev/rules.d/  
 $>  vim 99-hidraw-permissions.rules  
-
+```
   
-add:  
+add:    
 SUBSYSTEM=="usb", ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f372", MODE="0666"
-'''
 
 # luxafor flag
 Supported colors:  
@@ -61,4 +60,3 @@ End it finishes by showing continues red.
   
 # gui-lux
 Is a simple user interface with buttons, which makes the lux show a particular color.
-
