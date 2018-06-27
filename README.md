@@ -34,9 +34,10 @@ Main lux class.  It instantiates the device and writes the necesarry instruction
   
 supports:  
 Flashing and continues light.  
-Turn it of again.  
+Turning it off again.  
 
 # Countdown
+Basically a timer.  
 The count down program takes a duration and list of alerts.
 
 It determines the time now and runs for the number of seconds request. 
@@ -57,6 +58,8 @@ after 60 (end-30) seconds it shows continues yellow
 after 75 (end-15) seconds it flashes yellow
 after 85 (end-5)  seconds it flashes red
 End it finishes by showing continues red.
+
+The boolean value indicates whether it should be flashing or lit continuously
   
 # gui-lux
 Is a simple user interface with buttons, which makes the lux show a particular color.
