@@ -54,11 +54,11 @@ timer = Timer(90, alerts)
 creates a timer which runs for 90 seconds.  
 it starts continues blue  
 after 30 (end-60) seconds it shows continues green  
-after 60 (end-30) seconds it shows continues yellow
-after 75 (end-15) seconds it flashes yellow
-after 85 (end-5)  seconds it flashes red
-End it finishes by showing continues red.
-
+after 60 (end-30) seconds it shows continues yellow  
+after 75 (end-15) seconds it flashes yellow  
+after 85 (end-5)  seconds it flashes red  
+End it finishes by showing continues red.  
+  
 The boolean value indicates whether it should be flashing or lit continuously
   
 # gui-lux
